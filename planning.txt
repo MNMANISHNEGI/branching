@@ -1,0 +1,38 @@
+voting app
+
+
+vote dalne ke liye umidvaaron ko 
+
+ models database ?
+ routes ?
+1.user sign/sign up 
+2.list of the candidate
+3.vote one of the 
+4.route to count live votes 
+5.user unique id 
+6.admin to maintain the candidate
+7.user can change the password
+8.user can login only with aadhar card number 
+9. admin cant vote 
+----------------------------------------------
+
+Routes 
+
+user authenticayion 
+/signup post 
+/login post 
+
+voting :
+/candidate get 
+/vote/candidateid: POST  vote for specific 
+
+vote 
+/vote/counts: GET get the list 
+
+user profile 
+/profile GET get the user profile infornmation
+/profile/password change the password
+admin 
+/candiate nPOST new candiate
+/Candidate candidate PUT update an existing Candidate
+/candidates /candidateID: delete remove from the list 
